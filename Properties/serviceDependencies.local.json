@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "ignored": "true",
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:FarmCentralDatabase"
+    },
+    "sqlite1": {
+      "secretStore": "LocalSecretsFile",
+      "resourceId": null,
+      "type": "sqlite.local",
+      "connectionId": "ConnectionStrings:AzureSQLDatabase"
+    },
+    "secrets1": {
+      "secretStore": null,
+      "resourceId": null,
+      "type": "secrets.user",
+      "connectionId": null
+    }
+  }
+}
